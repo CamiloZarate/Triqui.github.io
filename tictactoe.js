@@ -65,7 +65,7 @@ function cotejar() {
 }
 
 function TerminarJuego() {
-    $("#alertMensaje").html("Juego terminado");
+    $("#alertMensaje").html("Empate");
     $(".alert").show('slow');
     $("#iniciar").removeClass("disabled");
     $(".pieza").each(function(index) {
